@@ -31,6 +31,7 @@ variable "api_gateway_address" {
     - http://your-gateway-ip-address:8081 if using a port
     - https://your-gateway-api-address.com that maps to the 8081 port
     EOF
+   default = "https://api.rz.cs.akeyless.fans"
 }
 
 provider "akeyless" {
